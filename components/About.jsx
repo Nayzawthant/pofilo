@@ -38,17 +38,12 @@ const About = () => {
           </p>
 
           <div className="flex-auto mt-6 flex space-x-4">
-            <button onClick={onButtonClick} className="py-3 px-6 rounded-md bg-black text-white" type="submit">
+            <button onClick={onButtonClick} className="py-2 shadow-md shadow-gray-400 px-6 rounded-md bg-black text-white" type="submit">
               CV download
             </button>
-            <a href="file:///C:/Users/ASUS/Downloads/Nay%20Zaw%20Thant%20Resume%20%20(2).pdf">
-            <button className="py-3 px-6 rounded-md border  text-slate-900" type="button">
-              Resume
-            </button>
-            </a>
           </div> 
         </div>
-        <div className='w-full h-full m-auto shadow-xl relative shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300'>
+        <div className='w-full h-full m-auto shadow-md relative shadow-gray-400 rounded-xl flex items-center justify-center p-3 hover:scale-90 ease-in duration-300'>
           <Image src='/assets/my.jpg' className='rounded-xl' width={900} height={1100} alt='/' />
           <div className='w-full h-full absolute bg-black/70 rounded-xl opacity-80 ease-in duration-300 hover:opacity-0'></div>
         </div>
