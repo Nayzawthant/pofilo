@@ -36,14 +36,14 @@ html {
   }
 
   li:hover {
-    color: #5651e5;
+    color: #1127f2;
   }
 
   li::before {
     content: '';
     position: absolute;
     bottom: -3px;
-    background-color: #5651e5;
+    background-color: #1127f2;
     width: 0%;
     height: 2px;
     transition: all 0.3s ease-in-out;
@@ -55,6 +55,20 @@ html {
 
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white
+    @apply shadow-xl shadow-gray-400 rounded-lg uppercase bg-gradient-to-r from-[#333333] to-[#808191] text-white
   }
+
+  .button {
+    background-color: #333333;
+  }
+
+  .loading-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+
 }
+

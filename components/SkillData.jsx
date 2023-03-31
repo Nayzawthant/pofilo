@@ -1,63 +1,52 @@
-import Html from '../public/assets/skills/html.png';
-import Css from '../public/assets/skills/css.png';
-import Javascript from '../public/assets/skills/javascript.png';
-import ReactImg from '../public/assets/skills/react.png';
-import Tailwind from '../public/assets/skills/tailwind.png';
-import GithubImg from '../public/assets/skills/github.jpg';
-import MongoDb from '../public/assets/skills/th.jpg';
-import BootStrap from '../public/assets/skills/bootstrap.jpg';
-import Jquery from '../public/assets/skills/jquery.jpg';
-import Redux from '../public/assets/skills/redux.jpg';
-import ExpressImg from '../public/assets/skills/express.jpg';
-import NextJS from '../public/assets/skills/nextjs.png'
+
 
 export const SkillData = [
     {
-        img: Html,
+        img: '/assets/skills/html.png',
         name: 'Html'
     },
     {
-        img: Css,
+        img: '/assets/skills/css.png',
         name: 'CSS'
     },
     {
-        img: Javascript,
+        img: '/assets/skills/javascript.png',
         name: 'Javascript'
     },
     {
-        img: Jquery,
+        img: '/assets/skills/jquery.jpg',
         name: 'Jquery'
     },
     {
-        img: ReactImg,
+        img: '/assets/skills/react.png',
         name: 'React.js'
     },
     {
-        img: Redux,
+        img: '/assets/skills/redux.jpg',
         name: 'Redux'
     },
     {
-        img: NextJS,
+        img: '/assets/skills/nextjs.png',
         name: 'Next.js'
     },
     {
-        img: MongoDb,
+        img: '/assets/skills/th.jpg',
         name: 'MongoDB'
     },
     {
-        img: Tailwind,
+        img: '/assets/skills/tailwind.png',
         name: 'Tailwind Css'
     },
     {
-        img: BootStrap,
+        img: '/assets/skills/bootstrap.jpg',
         name: 'Bootstrap'
     },
     {
-        img: ExpressImg,
+        img: '/assets/skills/express.jpg',
         name: 'Express.js'
     },
     {
-        img: GithubImg,
+        img: '/assets/skills/github.jpg',
         name: 'Github'
     },
     
