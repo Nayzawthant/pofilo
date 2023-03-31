@@ -55,7 +55,7 @@ html {
 
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-lg uppercase bg-gradient-to-r from-[#333333] to-[#808191] text-white
+    @apply shadow-xl shadow-gray-400 rounded-lg bg-gradient-to-r from-[#333333] to-[#808191] text-white
   }
 
   .button {

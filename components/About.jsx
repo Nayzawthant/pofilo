@@ -37,7 +37,7 @@ const About = () => {
             Thank you for considering my application. I look forward to the opportunity to contribute my skills and experience to your team!
           </p>
 
-          <div className="flex-auto mt-6 flex space-x-4">
+          <div className="flex-auto mt-6 flex space-x-4 mb-6">
             <button onClick={onButtonClick} className="py-2 shadow-md shadow-gray-400 px-6 rounded-md bg-black text-white" type="submit">
               CV download
             </button>
