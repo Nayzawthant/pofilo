@@ -18,18 +18,6 @@ const Projects = () => {
             backgroundImg={propertyImg}
             projectUrl='/property'
           />
-          <ProjectItem
-            className='w-full h-full'
-            title='Sports website'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-          />
-          <ProjectItem
-            className='w-full h-full'
-            title='Sports website'
-            backgroundImg={propertyImg}
-            projectUrl='/property'
-          />
         </div>
       </div>
     </div>
