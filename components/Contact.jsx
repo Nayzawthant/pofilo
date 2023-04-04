@@ -75,7 +75,7 @@ const Contact = () => {
                 </div>
                 <div className='flex items-center py-4'>
                   <a
-                    href='https://www.linkedin.com/in/mg-nay-zaw-40046426b/'
+                    href='https://www.linkedin.com/in/nay-zaw-zaw-b6b345271/'
                     target='_blank'
                     rel='noreferrer'
                   >
